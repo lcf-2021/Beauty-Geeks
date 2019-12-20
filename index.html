@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Beauty Geeks</title>
+  <link rel="icon" href="assets/logo.png" sizes="16x16" type="image/png">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.min.css" rel="stylesheet">
+</head>
+<style>
+  .cap-pos{
+    text-align: center;
+    top: 25%;
+  }
+
+  .dropdown-item {
+    font-size: smaller !important; 
+    
+  }
+  .dropdown-item:hover{
+    background-color:#EAE0DE;
+    background-image: none;
+  }
+</style>
+
+<body class="grey lighten-3">
+
+  <!--Main Navigation-->
+  <header>
+
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar" style="background-color: #EAE0DE !important;">
+      <div class="container">
+
+        <!-- Brand -->
+        <a class="navbar-brand waves-effect" href="index.html">
+          <img src="assets/logo.png" alt="" class="" style="width:200px;position: fixed;display: inline;top: 0px;">
+        </a>
+
+        <!-- Collapse -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <!-- Left -->
+          <ul class="navbar-nav ml-auto" style="text-transform: uppercase;font-size: smaller;">
+            <li class="nav-item active">
+              <a class="nav-link waves-effect" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect" href="#"  >About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect" href="#"
+                 >Shop</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link waves-effect" href="#"
+                   >What's Hot</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Beauty
+                </a>
+                <div class="dropdown-menu waves-effect" aria-labelledby="navbarDropdown" style="border-radius: 5px;background-color: #EAE0DE !important;">
+                  <a class="dropdown-item" href="#" class="font-size: 20px;">Style</a>
+                  <a class="dropdown-item" href="#" class="font-size: 20px; !important;">Tutorials action</a>
+                  </div>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link waves-effect" href="#"
+                   >TUTORIALS</a>
+              </li>
+           
+            <li class="nav-item">
+              <a class="nav-link waves-effect" href="contact.html"  >Contact</a>
+            </li>
+          </ul>
+
+          <!-- Right -->
+          <!-- <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item">
+              <a href="#" class="nav-link waves-effect"  >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link waves-effect"  >
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="nav-link border border-light rounded waves-effect"
+                 >
+                <i class="fab fa-github mr-2"></i>MDB GitHub
+              </a>
+            </li>
+          </ul> -->
+
+        </div>
+
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <main class="mt-5 pt-5">
+    <div class="container mt-5">
+
+      <!--Section: Post-->
+      <section class="mt-4">
+
+        <!--Grid row-->
+        <div class="row">
+
+ <!--Featured Image-->
+ <div class="col-md-12 mb-4">
+ <div class="card mb-4 wow fadeIn">
+
+    <!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-2" data-slide-to="1"></li>
+      <li data-target="#carousel-example-2" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <div class="view">
+          <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(105).jpg" alt="First slide">
+          <div class="mask rgba-black-light"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">This is the first title</h3>
+          <p>First text</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(115).jpg" alt="Second slide">
+          <div class="mask rgba-black-light"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">Thir is the second title</h3>
+          <p>Secondary text</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(108).jpg" alt="Third slide">
+          <div class="mask rgba-black-light"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">This is the third title</h3>
+          <p>Third text</p>
+        </div>
+      </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+  </div>
+  <!--/.Carousel Wrapper-->
+
+  </div>
+</div>
+  <!--/.Featured Image-->
+
+
+          <!--Grid column-->
+          <div class="col-12"><h2 class="mb-3 font-weight-light dark-grey-text">
+            Featured
+          </h2></div>
+          <div class="col-md-8 mb-4">
+
+           
+
+          
+
+            
+            
+        <!--Card-->
+        <div class="card mb-4 wow fadeIn rounded-0">
+
+            <!--Card content-->
+            <div class="card-body">
+
+               <!--Grid row-->
+      <div class="row mt-3 wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-lg-5 col-xl-5 mb-4">
+            <!--Featured image-->
+            <div class="view overlay  rounded-0 z-depth-1">
+              <img src="https://mdbootstrap.com/wp-content/uploads/2017/11/brandflow-tutorial-fb.jpg" class="img-fluid"
+                alt="">
+              <a href="blog-1.html" >
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-7 col-xl-7 ml-xl-8 mb-4">
+            <h5 class="mb-3 font-weight-bold dark-grey-text">
+              How I Cut Layers in My Hair AT HOME!
+            </h5>
+            <p class="grey-text">
+              Hello my loves!! I was LONG OVER DUE for a hair cut. I decided to do an update on how I cut layers in my hair!! It’s been at least 2 years since I’ve had any angles or layers! I was loving my hair all one length but I wanted a change.</p>
+            <a href="blog-1.html" class="btn btn-primary btn-md rounded">Read more
+            </a>
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+              
+            </div>
+          <!--/.Card-->
+            </div>
+          <!--Card-->
+
+        <!--Card-->
+        <div class="card mb-4 wow fadeIn rounded-0">
+
+            <!--Card content-->
+            <div class="card-body">
+
+               <!--Grid row-->
+      <div class="row mt-3 wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-lg-5 col-xl-5 mb-4">
+            <!--Featured image-->
+            <div class="view overlay  rounded-0 z-depth-1">
+              <img src="https://mdbootstrap.com/wp-content/uploads/2017/11/brandflow-tutorial-fb.jpg" class="img-fluid"
+                alt="">
+              <a href="blog-2.html" >
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-7 col-xl-7 ml-xl-8 mb-4">
+            <h3 class="mb-3 font-weight-bold dark-grey-text">
+              <strong>Make up Techniques</strong>
+            </h3>
+            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, aliquid.</p>
+            <a href="blog-2.html" class="btn btn-primary btn-md rounded">Read more
+            </a>
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+              
+            </div>
+          <!--/.Card-->
+            </div>
+          <!--Card-->
+
+           <!--Card-->
+        <div class="card mb-4 wow fadeIn">
+
+                <!--Card content-->
+                <div class="card-body">
+  
+                   <!--Grid row-->
+          <div class="row mt-3 wow fadeIn">
+  
+              <!--Grid column-->
+              <div class="col-lg-5 col-xl-5 mb-4">
+                <!--Featured image-->
+                <div class="view overlay rounded z-depth-1">
+                  <img src="https://mdbootstrap.com/wp-content/uploads/2017/11/brandflow-tutorial-fb.jpg" class="img-fluid"
+                    alt="">
+                  <a href="blog-3.html" >
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+              </div>
+              <!--Grid column-->
+    
+              <!--Grid column-->
+              <div class="col-lg-7 col-xl-7 ml-xl-8 mb-4">
+                <h3 class="mb-3 font-weight-bold dark-grey-text">
+                  <strong>Make up Techniques</strong>
+                </h3>
+                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, aliquid.</p>
+                <a href="blog-3.html" class="btn btn-primary btn-md rounded">Read more
+                </a>
+              </div>
+              <!--Grid column-->
+    
+            </div>
+            <!--Grid row-->
+                  
+                </div>
+              <!--/.Card-->
+                </div>
+              <!--Card-->
+        
+  
+
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-4 mb-4">
+
+            <div class="card mb-4 wow fadeIn text-center rounded-0">
+              
+              <div class="card-header text-center rounded-0" style="background-color: #EAE0DE;text-transform: uppercase;">Watch Our Latest Video</div>
+                            <!--Card content-->
+                            <div class="card-body">
+                              <iframe width="auto" src="https://www.youtube.com/embed/0GzaX2781Tg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+                            </div>
+              
+                          </div>
+
+            
+
+            <!--Card-->
+            <div class="card mb-4 wow fadeIn rounded-0">
+
+              <div class="card-header text-center rounded-0" style="background-color: #EAE0DE;text-transform: uppercase;">Most Popular</div>
+
+              <!--Card content-->
+              <div class="card-body">
+
+                <ul class="list-unstyled">
+                  <li class="media">
+                    <a href="#"><img class="d-flex mr-3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXq-Il_677vVA61HlV9zBixLX30q65nFtC55aSjTNLpp-nYcDH&s" alt="Generic placeholder image img-fluid" style="width: 70px;"></a>
+                    <div class="media-body">
+                      <a href="#">
+                        <h6 class="mt-0 mb-1 dark-grey-text font-weight-bold">How I Cut Layers in My Hair AT HOME!</h6>
+                      </a>
+                      Hello my loves!! I was LONG OVER DUE for a hair cut. I decided to...
+                    </div>
+                  </li>
+                  <li class="media my-4">
+                    <a href="#"><img class="d-flex mr-3" src="https://media1.popsugar-assets.com/files/thumbor/jTRjxXgxI-nNBHKof7ju_46Paho/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2014/09/02/092/n/1922153/e43c9ee6cc77c5e6_razorsquare.jpg" alt="An image" style="width: 70px;"></a>
+                    <div class="media-body">
+                      <a href="#">
+                        <h6 class="mt-0 mb-1 dark-grey-text font-weight-bold">HOW I Shave My Face! 4 YEAR UPDATE!
+                        </h6>
+                      </a>
+                      HI MY LOVES!! I hope everyone had a great week! Today I am back with another...
+                    </div>
+                  </li>
+                  <li class="media">
+                    <a href="#"><img class="d-flex mr-3" src="https://static-dailymakeover.stylecaster.com/2015/06/makeup-tips-for-hooded-eyes.jpg" alt="Generic placeholder image" style="width: 70px;"></a>
+                    <div class="media-body">
+                      <a href="#">
+                        <h6 class="mt-0 mb-1 dark-grey-text font-weight-bold">MY GO TO GOLDEN SMOKEY EYE | COACHELLA EDITION</h6>
+                      </a>
+                      Today I am back with one of my favorite makeup looks ever!!! I have been...
+                    </div>
+                  </li>
+                </ul>
+
+              </div>
+
+            </div>
+            <!--/.Card-->
+            <div class="card mb-4 wow fadeIn text-center rounded-0">
+              
+              <div class="card-header text-center rounded-0" style="background-color: #EAE0DE;text-transform: uppercase;">Connect with Us</div>
+              <!--Card content-->
+              <div class="card-body">
+                <p class="dark-grey-text">Follow us on our social media!</p>
+                <div class="pb-4 dark-grey-text">
+                  <a href="#" style="font-size: 25px;">
+                    <i class="fab fa-facebook-f mr-3 dark-grey-text"></i>
+                  </a>
+            
+                  <a href="#" style="font-size: 25px;">
+                    <i class="fab fa-twitter mr-3 dark-grey-text"></i>
+                  </a>
+            
+                  <a href="#" style="font-size: 25px;">
+                    <i class="fab fa-youtube mr-3 dark-grey-text"></i>
+                  </a>
+            
+                  <a href="#" style="font-size: 25px;">
+                    <i class="fab fa-instagram dark-grey-text"></i></a>
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="card mb-4 wow fadeIn text-center rounded-0">
+              
+<div class="card-header text-center rounded-0" style="background-color: #EAE0DE;text-transform: uppercase;">Join our Newsletter</div>
+              <!--Card content-->
+              <div class="card-body">
+                <p class="dark-grey-text">Subscribe to our receive the latest news and exclusive offers every week.</p>
+                <form class="form-inline md-form mb-4 justify-content-center">
+                  <input class="form-control" type="text" placeholder="Email address">
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#centralModalSuccess">
+                      Subscribe
+                    </button>
+                </form>
+
+              </div>
+
+            </div>
+
+            
+
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+      </section>
+      <!--Section: Post-->
+
+    </div>
+  </main>
+  <!--Main layout-->
+
+  <!--Footer-->
+  <footer class="page-footer text-center font-small  bg-light mt-4 wow fadeIn dark-grey-text" style="background-color: #EAE0DE !important;">
+
+    <!--Call to action-->
+    <div class="pt-4">
+      
+
+        <!-- Central Modal Medium Success -->
+<div class="modal fade" id="centralModalSuccess" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+aria-hidden="true">
+<div class="modal-dialog modal-notify modal-success" role="document">
+  <!--Content-->
+  <div class="modal-content">
+    <!--Header-->
+    <div class="modal-header">
+      <p class="heading lead">Success!</p>
+
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true" class="white-text">&times;</span>
+      </button>
+    </div>
+
+    <!--Body-->
+    <div class="modal-body">
+      <div class="text-center">
+        <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+        <p>You're all set! Thank you!</p>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <div class="modal-footer justify-content-center">
+      <a type="button" class="btn btn-outline-success waves-effect" data-dismiss="modal">Okay</a>
+    </div>
+  </div>
+  <!--/.Content-->
+</div>
+</div>
+<!-- Central Modal Medium Success-->
+    </div>
+  </div>
+    <!--/.Call to action-->
+
+    <!-- <div class="row">
+      <div class="col-4">
+      <h3>Some Footer</h3>
+      <p>some footer text here</p>
+    </div>
+    <div class="col-4">
+        <h3>Some Footer</h3>
+        <p>some footer text here</p>
+      </div>
+      <div class="offset-1 col-3">
+          <h5>Subscribe to our Newsletter</h5>
+          <form class="form-inline md-form mb-4 justify-content-center">
+            <input class="form-control" type="text" placeholder="Email address">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#centralModalSuccess">
+                Subscribe
+              </button>
+          </form>
+        </div>
+      </div> -->
+
+    <!-- Social icons -->
+    <div class="row text-center">
+      <div class="col-3">
+        <div class="row">
+          <div class="col-6 zoom"><img src="assets/f6.jpg" alt="" class="img-fluid" style="border-radius: 90%;"></div>
+          <div class="col-6 zoom"><img src="assets/f7.jpg" alt="" class="img-fluid" style="border-radius: 90%;"></div>
+<!--social icons-->
+
+    </div>
+  </div>
+    <div class="col-3">
+      <div class="row">
+      <div class="col-6 zoom"><img src="assets/f3.jfif" alt="" class="img-fluid" style="border-radius: 90%;"></div>
+      <div class="col-6 zoom"><img src="assets/f4.jfif" alt="" class="img-fluid" style="border-radius: 90%;"></div>
+    </div>
+    </div>
+    <div class="col-3">
+      <div class="row">
+        <div class="col-6 zoom"><img src="assets/f3.jfif" alt="" class="img-fluid" style="border-radius: 90%;"></div>
+        <div class="col-6 zoom"><img src="assets/f4.jfif" alt="" class="img-fluid" style="border-radius: 90%;"></div>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="row">
+        <div class="col-6 zoom"><img src="assets/f3.jfif" alt="" class="img-fluid" style="border-radius: 90%;"></div>
+        <div class="col-6 zoom"><img src="assets/f4.jfif" alt="" class="img-fluid" style="border-radius: 90%;"></div>
+      </div>
+    </div>
+  </div>
+    <div class="pb-4 dark-grey-text mt-5">
+      <a href="#"  >
+        <i class="fab fa-facebook-f mr-3 dark-grey-text"></i>
+      </a>
+
+      <a href="#"  >
+        <i class="fab fa-twitter mr-3 dark-grey-text"></i>
+      </a>
+
+      <a href="#"  >
+        <i class="fab fa-youtube mr-3 dark-grey-text"></i>
+      </a>
+
+      <a href="#"><i class="fab fa-instagram dark-grey-text"></i></a>
+    </div>
+    <!-- Social icons -->
+
+    <!--Copyright-->
+    <div class="page-footer py-1 dark-grey-text">
+      © 2019
+      <a href="#"  class="dark-grey-text" style="text-transform:uppercase;">&nbsp;B e a u t y &nbsp; G e e k s </a>
+    </div>
+    <!--/.Copyright-->
+
+  </footer>
+  <!--/.Footer-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Initializations -->
+  <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+
+  </script>
+</body>
+
+</html>
